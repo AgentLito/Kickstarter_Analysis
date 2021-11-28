@@ -17,6 +17,7 @@ Jul	87	50	1	138
 Aug	72	47	4	123
 Sep	59	34	4	97
 Oct	65	50		115
+
 Nov	54	31	3	88
 Dec	37	35	3	75
 Grand Total	839	493	37	1369![image](https://user-images.githubusercontent.com/91812090/143730257-93ca442d-d257-4e83-b850-3d01865c39e8.png)
@@ -26,6 +27,7 @@ The months that had the most campaigns created and most successful were May and 
 This Illustration shows this.
 ![image](https://user-images.githubusercontent.com/91812090/143730422-6d81a540-f13d-40e4-b4f6-13358775d76d.png)
 Analysis
+
 This is the formula we used
 =COUNTIFS(Kickstarter!D$84:D$4108,">=1000",Kickstarter!D$84:D$4108,"<5000",Kickstarter!F$84:F$4108,"successful",Kickstarter!P$84:P$4108,"plays")
 
@@ -41,14 +43,30 @@ Less than 1000	141	45	0	186	76%	24%	0%
 35000 to 39999	4	2	0	6	67%	33%	0%
 40000 to 44999	2	1	0	3	67%	33%	0%
 45000 to 49999	0	1	0	1	0%	100%	0%
-Greater than 50000	2	14	0	16	13%	88%	0%![image](https://user-images.githubusercontent.com/91812090/143730568-cd3ef7dd-1285-4f85-a991-855450a78e38.png)
-![image](https://user-images.githubusercontent.com/91812090/143730587-5a584f71-d253-4bbc-8502-3acdf5651b22.png)
+Greater than 50000	2	14	0	16	13%	88%	
+
+[image](https://user-images.githubusercontent.com/91812090/143730568-cd3ef7dd-1285-4f85-a991-855450a78e38.png)
+
+[image](https://user-images.githubusercontent.com/91812090/143730587-5a584f71-d253-4bbc-8502-3acdf5651b22.png)
+
+The Months that had the most successful campaigns and the most successful were May and June.
+
+May	111	52	3	166
+Jun	100	49	4	153
+
+[image](https://user-images.githubusercontent.com/91812090/143782559-b58fa553-463f-482b-b59b-ae43216fa79e.png)
+
 
 Challenges and Difficulties Encountered
+
 Working with a large dataset like Kickstarter, huge challenge was filtering the data making sure its understood and interpreted. Once filtered correctly. Several times the data did not reflect what we expected. We have to make several adjustments to the formula. We reviewed the formula and resolved the issues.
+
+![image](https://user-images.githubusercontent.com/91812090/143782674-a8273c58-b0f4-441d-91fb-9d5f5f15b650.png)
+
 Results:
 What are two conclusions you can draw about the Outcomes based on Launch Date?
 In conclusion May and June are the best months to start a Kickstarter campaign. May and June had the most Plays campaign started. Which were the most successful. The data shows that May-August had the most campaigns started. Our chart clearly shows the trend where te campaign becoming less successful after June.
+
 What can you conclude about the Outcomes based on Goals?
 We concluded that the campaign had goals less than $5000 were the most successful. More campaigns launched where goals were less than $5000.
 What are some limitations of this dataset?
